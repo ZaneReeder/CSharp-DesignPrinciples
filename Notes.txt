@@ -1,0 +1,26 @@
+Design Principles & Patterns
+
+Single Responsibility Principle
+	Every class or module should have responsibility
+	over a single part of the functionality provided
+	by the software. That responsibility should be
+	encapsulated by the class. A class should have one
+	reason to change.
+
+Open Close Principle
+	Part of a system or subsystem have to open for extension,
+	but closed from modification.
+	For more funcitonality, make new classes, implement 
+	ISpecification and feed those into something that has
+	been made in preperation for this module.
+	
+Liskov Substitution Principle
+	Substitute a basetype for a subtype.
+	
+Interface Segregation Principle
+	An interface should be implemented so that no unneccessary 
+	functions must be implemented.
+	
+Dependancy Inversion Principle
+	High level parts of the system should not directly depend
+	on the lower level parts of the system.
